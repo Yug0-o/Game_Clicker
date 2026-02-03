@@ -111,15 +111,15 @@ C'est tout ! Aucune dépendance externe nécessaire.
 ### Gameplay de base
 
 1. **Cliquez sur "CLIC !"** pour gagner des points
-2. **Sélectionnez une cible** avec "⚙️ Voir améliorations"
+2. **Sélectionnez une cible** avec "Voir améliorations"
 3. **Achetez des améliorations** dans la boutique en bas
-4. **Débloquez de nouvelles cibles** avec l'amélioration "🎯 Nouvelle Cible"
+4. **Débloquez de nouvelles cibles** avec l'amélioration "Nouvelle Cible"
 
 ### Stratégie recommandée
 
-1. Achetez quelques **"💪 Clic Puissant"** pour augmenter vos gains
-2. Investissez dans des **"🤖 Auto-Clicker"** pour automatiser
-3. Améliorez la **"⚡ Vitesse Auto"** pour accélérer les gains passifs
+1. Achetez quelques **"Clic Puissant"** pour augmenter vos gains
+2. Investissez dans des **"Auto-Clicker"** pour automatiser
+3. Améliorez la **"Vitesse Auto"** pour accélérer les gains passifs
 4. Débloquez une **nouvelle cible** quand vous avez assez de points
 5. Répétez avec chaque nouvelle cible !
 
