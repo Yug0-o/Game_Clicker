@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clicker Game - Multi-Cibles</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header-content">
+        <h1 class="title">CLICKER GAME</h1>
+        <div class="header-buttons">
+          <button id="saveBtn" class="btn btn-primary">Sauvegarder</button>
+          <button id="loadBtn" class="btn btn-secondary">Charger</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Zone principale -->
+    <main class="main-content">
+      <!-- Score -->
+      <section class="score-section">
+        <div class="score-card">
+          <div class="score-value" id="points">0</div>
+          <div class="score-label">Points</div>
+        </div>
+        <div class="stats">
+          <span id="totalClics">0 clics</span>
+          <span>•</span>
+          <span id="autoClicDelay">3.0s auto</span>
+          <span>•</span>
+          <span id="totalCibles">1 cible</span>
+        </div>
+      </section>
+
+      <!-- Section Cibles -->
+      <section class="section">
+        <h2 class="section-title">VOS CIBLES</h2>
+        <div class="cibles-container" id="ciblesContainer">
+          <!-- Les cibles seront ajoutées ici par JavaScript -->
+        </div>
+      </section>
+
+      <!-- Section Améliorations -->
+      <section class="section">
+        <h2 class="section-title">AMÉLIORATIONS</h2>
+        <div class="selected-cible" id="selectedCible">
+          Sélectionnez une cible
+        </div>
+        <div class="ameliorations-container" id="ameliorationsContainer">
+          <!-- Les améliorations seront ajoutées ici par JavaScript -->
+        </div>
+      </section>
+    </main>
+
+    <!-- Toast notifications -->
+    <div id="toast" class="toast"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
